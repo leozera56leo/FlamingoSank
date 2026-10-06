@@ -297,10 +297,13 @@ fun AlbumInfo(
                 item("AlbumInfo_others") {
                     Text(
                         text = stringResource(
-                            id = R.string.page_library_album_info_others,
-                            songCount,
-                            totalMinutes
-                        ), fontSize = 15.sp, modifier = Modifier
+    id = if (songCount == 1)
+        R.string.page_library_album_info_others_singular
+    else
+        R.string.page_library_album_info_others_plural,
+    songCount,
+    totalMinutes
+), fontSize = 15.sp, modifier = Modifier
                             .alpha(0.4f)
                             .padding(horizontal = 18.dp)
                             .padding(top = 18.dp)
