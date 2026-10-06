@@ -70,8 +70,8 @@
     <string name="page_library_album_desc">%d Songs</string>
     <string name="tip_no_album_info">No albums found.</string>
     <string name="page_library_album_info_title">Album Information</string>
-    <string name="normal_button_play">Play</string>
-    <string name="normal_button_shuffle">Shuffle</string>
+    <string name="normal_button_play">Tocar</string>
+    <string name="normal_button_shuffle">Aleatório</string>
     <string name="page_library_album_info_others">%1$d Songs, about %2$d minutes</string>
     <string name="page_library_artists">Artists</string>
     <string name="page_library_playlists">Playlists</string>
