@@ -73,6 +73,8 @@
     <string name="normal_button_play">Tocar</string>
     <string name="normal_button_shuffle">Aleatório</string>
     <string name="page_library_album_info_others">%1$d Songs, about %2$d minutes</string>
+    <string name="page_library_album_info_others_singular">%1$d música, %2$d minutos</string>
+<string name="page_library_album_info_others_plural">%1$d músicas, %2$d minutos</string>
     <string name="page_library_artists">Artists</string>
     <string name="page_library_playlists">Playlists</string>
     <string name="page_library_search_songs">Search in Songs</string>
