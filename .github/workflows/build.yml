@@ -23,8 +23,15 @@ jobs:
       - name: Build APK
         run: ./gradlew assembleDebug
 
+      - name: Find APK
+        run: |
+          mkdir -p artifact
+          APK=$(find . -type f -iname "*.apk" | head -n 1)
+          echo "APK encontrado: $APK"
+          cp "$APK" artifact/Flamingo-debug.apk
+
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: Flamingo-debug
-          path: app/build/outputs/**/*.apk
+          path: artifact/Flamingo-debug.apk
